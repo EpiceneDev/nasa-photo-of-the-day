@@ -31,3 +31,19 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container  {
+  background-color: rgb(139, 185, 228);
+}
+
+.card-container .segment {
+  background-color: rgb(150, 148, 148);
+}
+
+
+.card-container .segment .segment {
+  background-color: rgb(40, 21, 128);
+  color: whitesmoke;
+  box-shadow: 2px 3px 0 rgba(34, 36, 38, 0.2);
+  
+}

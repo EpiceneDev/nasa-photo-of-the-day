@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import DatePick from "./DatePick";
 import axios from "axios";
 import Card from "./Card";
+import '../../src/App.css'
 
 export default function CardContainer() {
     // let todaysdate = require('current-date');
@@ -20,7 +21,7 @@ export default function CardContainer() {
             .catch(err => console.log("OOPS. API ERROR: ", err))
     }, [date]);
     console.log("DATE: ", {date});
-    
+
     return (
         <div className="card-container">
             <h1>NASA Photo of the Day</h1>
